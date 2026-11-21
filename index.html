@@ -22,7 +22,7 @@
 <div id="toast" class="toast"></div>
 <script>
 // Isi dua nilai ini dari Supabase: Project Settings > API.
-const SUPABASE_URL = 'https://mlguofnlpiehlbgojnng.supabase.co/rest/v1/';
+const SUPABASE_URL = 'https://mlguofnlpiehlbgojnng.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_pGJmetZbJOk-zKLa6lP77g_aH_gBoOQ';
 const configured = !SUPABASE_URL.startsWith('PASTE_') && !SUPABASE_ANON_KEY.startsWith('PASTE_');
 const db = configured ? window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY) : null;
